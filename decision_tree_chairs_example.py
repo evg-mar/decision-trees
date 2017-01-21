@@ -40,7 +40,7 @@ doNot_MktResearch = DecisionNode(value=None, label="No Mkt Research", parent=Non
 
 rootDecision = DecisionNode(value=None, label="Do/Not Mkt Research", parent=None,
                             children = [do_MktResearch, doNot_MktResearch],
-                            penalties = [100.0, 0.0])
+                            penalties = [50.0, 0.0])
 
 
 print("compute expected value of the root")
